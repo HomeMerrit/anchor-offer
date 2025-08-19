@@ -1,0 +1,23 @@
+Docs for yourself / teammates. Example:
+
+# Home Merrit Offer Worker
+
+Tiny Express app that connects Zapier → OpenAI Assistant → Zapier (Docupilot).
+
+### Run locally
+
+
+npm install
+npm start
+
+
+Then POST to:
+
+
+http://localhost:3000/start-offer
+
+
+### Deploy
+- Push to GitHub
+- Connect repo in Render
+- Add env vars (OPENAI_API_KEY, ASSISTANT_ID, ZAPIER_CATCH_URL)
